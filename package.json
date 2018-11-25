@@ -1,0 +1,19 @@
+{
+  "name": "0x-visualize-v8-profile-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js & && curl http://localhost:3000/start-profiling",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "0x": "git+https://git@github.com/slonka/0x.git#visualize-v8-profile",
+    "autocannon": "^3.1.0",
+    "koa": "^2.6.1",
+    "koa-router": "^7.4.0",
+    "v8-profiler-next": "^1.0.0"
+  }
+}
